@@ -14,8 +14,45 @@
     />
   </head>
   <body>
-    
+    <nav class="side-nav">
+      <a href="#" class="nav-logo">
+        <img src="images/logo.svg" alt="Logo" />
+        <h1>Users</h1>
+      </a>
+      <a href="#" class="bloc-link">
+        <img src="images/dashboard.svg" alt="Icone dashboard" />
+        <span class="nav-links">Dashboard</span>
+      </a>
+      <a href="#" class="bloc-link">
+        <img src="images/speech-bubble.svg" alt="Icone dashboard" />
+        <span class="nav-links">Messenger</span>
+      </a>
+      <a href="#" class="bloc-link active">
+        <img src="images/server.svg" alt="Icone dashboard" />
+        <span class="nav-links">DataBase</span>
+      </a>
+      <a href="#" class="bloc-link">
+        <img src="images/calendar.svg" alt="Icone dashboard" />
+        <span class="nav-links">Calendar</span>
+      </a>
+    </nav>
 
+    <main class="main-content">
+      <div class="input-control">
+        <label for="search">
+          <img src="images/search.svg" alt="search icon" />
+        </label>
+        <input type="text" id="search" placeholder="Search for an user" />
+      </div>
+
+      <h2 class="section-title">Database Results</h2>
+      <div class="table">
+        <h3 class="table-title">Name</h3>
+        <h3 class="table-title">Email</h3>
+        <h3 class="table-title">Phone</h3>
+      </div>
+      <ul class="table-results"></ul>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
